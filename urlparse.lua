@@ -50,3 +50,5 @@ function urlparse.urlparse(url, default)
     parsed.user = userinfo
     return parsed
 end
+
+return urlparse
