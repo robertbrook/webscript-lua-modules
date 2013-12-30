@@ -1,4 +1,6 @@
-function urlparse:parse(url, default)
+local urlparse = {}
+
+function urlparse.urlparse(url, default)
     -- initialize default parameters
     local parsed = {}
     for i,v in base.pairs(default or parsed) do parsed[i] = v end
